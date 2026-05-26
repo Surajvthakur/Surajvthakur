@@ -11,7 +11,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      # Upgrade to v4 for better reliability/security
+      - uses: actions/checkout@v4
 
       - uses: Platane/snk@v3
         with:
@@ -27,6 +28,12 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add .
-          git commit -am "chore: generate snake"
-          git push
+          git add dist/
+          
+          # Check if there are staged changes. If yes, commit and push.
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: generate snake"
+            git push
+          else
+            echo "No changes detected in the snake SVGs. Skipping commit."
+          fi
