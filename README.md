@@ -106,6 +106,16 @@ Here are the tools and technologies I work with:
 
 ---
 
+---
+
+## LeetCode card
+
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/surajvthakur?theme=dark&font=Karma"/>
+</p>
+
+---
+
 ### 📬 Connect With Me
 
 <p align="center">
