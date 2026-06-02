@@ -1,21 +1,23 @@
 <p align="center">
   <a href="https://github.com/Surajvthakur">
-    <img src="https://capsule-render.vercel.app/api?type=wave&color=00BFFF&height=300&section=header&text=AI%20Engineer&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Crafting%20the%20future%20with%20code%20and%20data.&descAlignY=51&descAlign=62" alt="Header Banner"/>
+    <img src="https://capsule-render.vercel.app/api?type=wave&color=00BFFF&height=300&section=header&text=AI%20Engineer&fontSize=90&animation=fadeIn&fontAlignY=38&descAlignY=51&descAlign=62" alt="Header Banner"/>
   </a>
 </p>
 
 <div align="center">
+  
   <a href="https://github.com/Surajvthakur">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1000&color=00BFFF&center=true&vCenter=true&width=550&lines=Machine+Learning+Engineer;Deep+Learning+Specialist;Natural+Language+Processing;Computer+Vision+Expert;Generative+AI;Agentic+AI;Data+Scientist" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=00BFFF&center=true&vCenter=true&width=500&lines=Genrative+AI;Agentic+AI;Machine+Learning+Engineer;Deep+Learning+Engineer;Data+Science" alt="Typing SVG"/>
   </a>
+
 </div>
 
 <div align="center">
   <br>
   <p align="center">
-    Hello there! I'm <b>Suraj</b>, an AI Engineer passionate about building intelligent systems that solve real-world problems. 
+    Hello there! I'm <b>Suraj Thakur</b>, an AI Engineer passionate about building intelligent systems that solve real-world problems. 
     <br>
-    I specialize in developing models for <b>Natural Language Processing</b>, <b>Computer Vision</b>, and <b>Generative AI</b>. 
+    I specialize in <b>Data Visualization</b> and <b>ML Models</b> 
     <br>
     My goal is to leverage AI to create impactful and innovative solutions. 🚀
   </p>
@@ -28,20 +30,68 @@
 Here are the tools and technologies I work with:
 
 <p align="center">
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>
-  <a href="https://www.cplusplus.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/></a>
-  <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/></a>
-  <a href="https://pytorch.org/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/></a>
-  <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/></a>
-  <a href="https://keras.io/" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" alt="keras" width="40" height="40"/></a>
-  <a href="https://huggingface.co/" target="_blank" rel="noreferrer"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="huggingface" width="40" height="40"/></a>
-  <a href="https://opencv.org/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/></a>
-  <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/></a>
-  <a href="https://numpy.org/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/numpy/numpy-icon.svg" alt="numpy" width="40" height="40"/></a>
-  <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/></a>
-  <a href="https://cloud.google.com" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/></a>
-  <a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/></a>
+
+  <!-- Languages -->
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="50" height="50" alt="Python"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="50" height="50" alt="C++"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="50" height="50" alt="JavaScript"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="50" height="50" alt="Java"/>
+
+  <!-- ML/DL -->
+  <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" width="50" height="50" alt="TensorFlow"/>
+  <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" width="50" height="50" alt="PyTorch"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="50" height="50" alt="Scikit-learn"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" width="50" height="50" alt="Keras"/>
+  <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="50" height="50" alt="HuggingFace"/>
+  <img src="https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/MLflow-logo-final-black.png" width="90" height="40" alt="MLflow"/>
+
+  <!-- GenAI / NLP -->
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg" width="50" height="50" alt="OpenAI"/>
+  <img src="https://raw.githubusercontent.com/hwchase17/langchain-logo/master/logo-light.svg" width="100" height="40" alt="LangChain"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Meta_LLaMA_logo.svg" width="60" height="50" alt="LLaMA"/>
+  <img src="https://raw.githubusercontent.com/weaviate/weaviate/main/docs/assets/images/weaviate-logo-light.svg" width="90" height="40" alt="Weaviate"/>
+  <img src="https://avatars.githubusercontent.com/u/6412038?s=200&v=4" width="50" height="50" alt="Pinecone"/>
+
+  <!-- Visualization / Data -->
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="50" height="50" alt="Pandas"/>
+  <img src="https://www.vectorlogo.zone/logos/numpy/numpy-icon.svg" width="50" height="50" alt="NumPy"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" width="50" height="50" alt="Matplotlib"/>
+  <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" width="50" height="50" alt="Seaborn"/>
+  <img src="https://images.plot.ly/logo/new-branding/plotly-logomark.png" width="50" height="50" alt="Plotly"/>
+  <img src="https://streamlit.io/images/brand/streamlit-mark-color.svg" width="50" height="50" alt="Streamlit"/>
+  <img src="https://raw.githubusercontent.com/plotly/dash/master/docs/assets/images/logo.png" width="80" height="40" alt="Dash"/>
+
+  <!-- Databases -->
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="60" height="60" alt="MySQL"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="50" height="50" alt="PostgreSQL"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" width="50" height="50" alt="MongoDB"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" width="50" height="50" alt="Redis"/>
+
+  <!-- Backend -->
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg" width="50" height="50" alt="Spring Boot"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="50" height="50" alt="Node.js"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="50" height="50" alt="Express"/>
+  <img src="https://static-00.iconduck.com/assets.00/flask-icon-512x512-vp5j4a9d.png" width="50" height="50" alt="Flask"/>
+  <img src="https://cdn.worldvectorlogo.com/logos/fastapi-1.svg" width="50" height="50" alt="FastAPI"/>
+
+  <!-- Frontend -->
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="50" height="50" alt="React"/>
+  <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" width="50" height="50" alt="Next.js"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original-wordmark.svg" width="50" height="50" alt="Bootstrap"/>
+  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="50" height="50" alt="Tailwind CSS"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="50" height="50" alt="HTML"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="50" height="50" alt="CSS"/>
+
+  <!-- Cloud / DevOps -->
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="70" height="60" alt="AWS"/>
+  <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" width="50" height="50" alt="Google Cloud"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" width="50" height="50" alt="Docker"/>
+  <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" width="50" height="50" alt="Kubernetes"/>
+  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="50" height="50" alt="Git"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="50" height="50" alt="GitHub"/>
+
 </p>
+
 
 ---
 
@@ -59,40 +109,46 @@ Here are the tools and technologies I work with:
 </p>
 <p align="center">
   <a href="https://github.com/Surajvthakur">
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=Surajvthakur&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+    <img src="https://streak-stats.demolab.com?user=Surajvthakur&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
   </a>
 </p>
+
 
 ---
 
 ### 🐍 My GitHub Contribution Graph Animation
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Surajvthakur/Surajvthakur/output/github-contribution-grid-snake.svg" alt="Snake Animation"/>
+  <img src="https://raw.githubusercontent.com/Surajvthakur/Surajvthakur/main/dist/github-contribution-grid-snake.svg" alt="Snake Animation"/>
 </div>
 
 ---
 
-### 🏆 GitHub Trophies
+## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Surajvthakur&theme=radical&no-frame=true&no-bg=true&margin-w=10" alt="GitHub Trophies"/>
+  <img 
+    src="https://github-profile-trophy.vercel.app/?username=Surajvthakur&theme=radical&no-frame=true&no-bg=true&margin-w=10" 
+    alt="GitHub Trophies"
+  />
 </p>
 
 ---
 
-### 📈 Activity Graph
+## Activity Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Surajvthakur&theme=tokyo-night&hide_border=true" alt="Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Surajvthakur&theme=tokyo-night&hide_border=true"/>
 </p>
 
 ---
 
-### 🥷 LeetCode Card
+---
+
+## LeetCode card
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/surajvthakur?theme=dark&font=Karma" alt="LeetCode Card"/>
+  <img src="https://leetcard.jacoblin.cool/surajvthakur?theme=dark&font=Karma"/>
 </p>
 
 ---
@@ -100,9 +156,9 @@ Here are the tools and technologies I work with:
 ### 📬 Connect With Me
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/your-linkedin-username/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:your.email@example.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
-  <a href="https://twitter.com/your-twitter-handle" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/></a>
+  <a href="https://www.linkedin.com/in/suraj-thakur-087b19282/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:surajvt21@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
+  <a href="https://x.com/Suraj_Thakur_21" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/></a>
 </p>
 
 <p align="center">
