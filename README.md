@@ -7,15 +7,9 @@
 <div align="center">
   
   <a href="https://github.com/Surajvthakur">
-<<<<<<< HEAD
-<<<<<<< HEAD
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=00BFFF&center=true&vCenter=true&width=550&lines=Machine+Learning+Engineer;Deep+Learning+Specialist;Natural+Language+Processing;Computer+Vision+Expert;Data+Scientist" alt="Typing SVG"/>
-=======
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=00BFFF&center=true&vCenter=true&width=500&lines=Machine+Learning+Engineer;Deep+Learning+Engineer;Natural+Language+Processing;Genrative+AI;Data+Scientist" alt="Typing SVG"/>
->>>>>>> 5f30dc5 (width = 550 in the typing svg)
-=======
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=00BFFF&center=true&vCenter=true&width=500&lines=Genrative+AI;Agentic+AI;Machine+Learning+Engineer;Deep+Learning+Engineer;Data+Science" alt="Typing SVG"/>
->>>>>>> a69a9a2 (updated data in typing svg)
   </a>
 
 </div>
