@@ -49,7 +49,7 @@ Here are the tools and technologies I work with:
   <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg" width="50" height="50" alt="OpenAI"/>
   <img src="https://raw.githubusercontent.com/hwchase17/langchain-logo/master/logo-light.svg" width="100" height="40" alt="LangChain"/>
   <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Meta_LLaMA_logo.svg" width="60" height="50" alt="LLaMA"/>
-  <img src="https://raw.githubusercontent.com/weaviate/weaviate/main/docs/assets/images/weaviate-logo-light.svg" width="90" height="40" alt="Weaviate"/>
+  
   <img src="https://avatars.githubusercontent.com/u/6412038?s=200&v=4" width="50" height="50" alt="Pinecone"/>
 
   <!-- Visualization / Data -->
