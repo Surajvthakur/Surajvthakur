@@ -43,13 +43,12 @@ Here are the tools and technologies I work with:
   <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="50" height="50" alt="Scikit-learn"/>
   <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" width="50" height="50" alt="Keras"/>
   <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="50" height="50" alt="HuggingFace"/>
-  <img src="https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/MLflow-logo-final-black.png" width="90" height="40" alt="MLflow"/>
+  <img src="https://cdn.simpleicons.org/mlflow/0194E2" width="50" height="50" alt="MLflow"/>
 
   <!-- GenAI / NLP -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg" width="50" height="50" alt="OpenAI"/>
-  <img src="https://raw.githubusercontent.com/hwchase17/langchain-logo/master/logo-light.svg" width="100" height="40" alt="LangChain"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Meta_LLaMA_logo.svg" width="60" height="50" alt="LLaMA"/>
-  
+  <img src="https://api.iconify.design/simple-icons:openai.svg?color=white" width="50" height="50" alt="OpenAI"/>
+  <img src="https://api.iconify.design/simple-icons:langchain.svg?color=white" width="50" height="50" alt="LangChain"/>
+  <img src="https://cdn.simpleicons.org/meta/0467DF" width="50" height="50" alt="LLaMA"/>
   <img src="https://avatars.githubusercontent.com/u/6412038?s=200&v=4" width="50" height="50" alt="Pinecone"/>
 
   <!-- Visualization / Data -->
@@ -59,10 +58,10 @@ Here are the tools and technologies I work with:
   <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" width="50" height="50" alt="Seaborn"/>
   <img src="https://images.plot.ly/logo/new-branding/plotly-logomark.png" width="50" height="50" alt="Plotly"/>
   <img src="https://streamlit.io/images/brand/streamlit-mark-color.svg" width="50" height="50" alt="Streamlit"/>
-  <img src="https://raw.githubusercontent.com/plotly/dash/master/docs/assets/images/logo.png" width="80" height="40" alt="Dash"/>
+  <img src="https://cdn.simpleicons.org/plotly/3F4F75" width="50" height="50" alt="Dash"/>
 
   <!-- Databases -->
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="60" height="60" alt="MySQL"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="50" height="50" alt="MySQL"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="50" height="50" alt="PostgreSQL"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" width="50" height="50" alt="MongoDB"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" width="50" height="50" alt="Redis"/>
@@ -70,25 +69,25 @@ Here are the tools and technologies I work with:
   <!-- Backend -->
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg" width="50" height="50" alt="Spring Boot"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="50" height="50" alt="Node.js"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="50" height="50" alt="Express"/>
-  <img src="https://static-00.iconduck.com/assets.00/flask-icon-512x512-vp5j4a9d.png" width="50" height="50" alt="Flask"/>
+  <img src="https://cdn.simpleicons.org/express/white" width="50" height="50" alt="Express"/>
+  <img src="https://cdn.simpleicons.org/flask/white" width="50" height="50" alt="Flask"/>
   <img src="https://cdn.worldvectorlogo.com/logos/fastapi-1.svg" width="50" height="50" alt="FastAPI"/>
 
   <!-- Frontend -->
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="50" height="50" alt="React"/>
-  <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" width="50" height="50" alt="Next.js"/>
+  <img src="https://cdn.simpleicons.org/nextdotjs/white" width="50" height="50" alt="Next.js"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original-wordmark.svg" width="50" height="50" alt="Bootstrap"/>
   <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="50" height="50" alt="Tailwind CSS"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="50" height="50" alt="HTML"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="50" height="50" alt="CSS"/>
 
   <!-- Cloud / DevOps -->
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="70" height="60" alt="AWS"/>
+  <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" width="50" height="50" alt="AWS"/>
   <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" width="50" height="50" alt="Google Cloud"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" width="50" height="50" alt="Docker"/>
   <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" width="50" height="50" alt="Kubernetes"/>
   <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="50" height="50" alt="Git"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="50" height="50" alt="GitHub"/>
+  <img src="https://cdn.simpleicons.org/github/white" width="50" height="50" alt="GitHub"/>
 
 </p>
 
