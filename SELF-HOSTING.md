@@ -50,8 +50,12 @@ All three services read the GitHub API on your behalf and need a token to do it.
 
 1. Go to <https://github.com/settings/tokens> → **Generate new token** → **classic**.
 
-   > Use a *classic* token, not fine-grained. These projects query the GraphQL v4 API, which
-   > classic tokens support most reliably.
+   > A *classic* token is the safe default: all three projects accept one, and it is the only
+   > kind that can include **private** contributions.
+   >
+   > github-stats-extended also accepts a fine-grained token (Metadata, Contents, Issues,
+   > Pull requests, Commit statuses — all read-only, "All repositories"), but that limits it
+   > to **public repositories only**. Use classic if you want `count_private=true` to work.
 
 2. Name it something you'll recognise later, e.g. `profile-cards`.
 3. Set an expiry. If you pick anything other than "No expiration", **put a reminder in your
@@ -60,6 +64,7 @@ All three services read the GitHub API on your behalf and need a token to do it.
    - `read:user` — **required**. Lets the services read your profile and contribution data.
    - `repo` — **only if** you want private repositories counted (this is what makes
      `count_private=true` in the README actually do something). Skip it if you don't.
+     The github-stats-extended docs list `repo` alongside `read:user` as their standard pair.
 
    Select nothing else. These services never need write access.
 
@@ -74,26 +79,56 @@ All three services read the GitHub API on your behalf and need a token to do it.
 
 ## Step 2 — Deploy the Stats + Top Languages card
 
-This one is **optional** — the cards already work via the public successor instance. Self-host it
-if you want guaranteed uptime, or if you want `count_private=true` to function (the public
-instance cannot see your private repos no matter what parameters you pass).
+This one is **optional** — the cards already work via the public instance. Self-host it if you want
+guaranteed uptime, or if you want `count_private=true` to function (the public instance cannot see
+your private repos no matter what parameters you pass).
+
+> [!IMPORTANT]
+> This project is a **pnpm/turbo monorepo**, not a flat serverless project. You must set the
+> Root Directory to `apps/backend`, or the build fails with:
+>
+> ```
+> No Output Directory named "dist" found after the Build completed.
+> ```
+>
+> Vercel only reads `vercel.json` from the Root Directory, and the build command lives in
+> `apps/backend/vercel.json`. Point the root at the repo top and Vercel never sees it, falls back
+> to guessing a framework, and looks for a `dist/` folder this repo never produces.
 
 1. Go to <https://github.com/stats-organization/github-stats-extended> and click **Fork**.
-2. Go to <https://vercel.com/new>. Vercel lists your GitHub repos — pick
-   **`github-stats-extended`** and click **Import**.
-3. Leave every build setting at its default. The repo ships a `vercel.json` that configures the
-   serverless functions; don't override the framework preset.
-4. Expand **Environment Variables** and add:
+
+   **Untick "Copy the `master` branch only."** You need the `release` branch in step 7.
+
+2. Go to <https://vercel.com/new>, find your fork, and click **Import**.
+
+3. **Set Root Directory to `apps/backend`.** It's under the "Root Directory" heading on the import
+   screen — click **Edit** and pick the `apps/backend` folder. This is the step that matters.
+
+4. Leave the build and output settings alone. Once the root directory is right, `vercel.json`
+   supplies the build command.
+
+5. Expand **Environment Variables** and add:
 
    | Name | Value |
    |---|---|
    | `PAT_1` | the token from Step 1 |
 
-   The name must be exactly `PAT_1`. The project supports `PAT_2`, `PAT_3`… for rotating across
-   several tokens under heavy load; you do not need that.
+   Optionally also set `TURBO_PLATFORM_ENV_DISABLED` to `true`, which silences a harmless
+   build-time warning from turbo about variables missing from `turbo.json`.
 
-5. Click **Deploy** and wait for the build.
-6. Copy your deployment hostname — it looks like `github-stats-extended-abc123.vercel.app`.
+   To keep the token out of build logs: add it under Project Settings → Environment Variables,
+   untick **Deployment** under Environments, then tick **Sensitive**.
+
+6. Click **Deploy**.
+
+7. **Switch the project to the `release` branch.** `master` carries unreleased and potentially
+   unstable code; `release` is the latest stable tag.
+
+   1. Project Settings → **Environments → Production**, change the tracked branch from `master`
+      to `release`.
+   2. **Deployments → ⋯ → Create Deployment**, pick `release`, then **Deploy to production**.
+
+8. Copy your deployment hostname — something like `github-stats-extended-abc123.vercel.app`.
 
 **Test it before touching the README:**
 
@@ -104,19 +139,23 @@ curl -s -o /dev/null -w '%{http_code}\n' \
 
 `200` means you're good. See [Troubleshooting](#troubleshooting) for anything else.
 
+> **Avoid the one-click "Deploy to Vercel" button** in the upstream docs. It sets the root
+> directory for you, but the repo it creates is not registered as a fork, so GitHub's
+> **Sync fork** button won't work and you lose the easy update path in [Maintenance](#maintenance).
+
 ### Optional environment variables
 
 | Name | Effect |
 |---|---|
-| `CACHE_SECONDS` | Cache lifetime for generated cards. Defaults to 86400 (24h). Lower it if you want stats to refresh faster. |
+| `CACHE_SECONDS` | Cache lifetime for generated cards. Defaults to 86400 (24h). Lower it to refresh faster. |
 | `WHITELIST` | Comma-separated usernames allowed to use your instance. Set it to `Surajvthakur` to stop strangers burning your API quota. |
 | `EXCLUDE_REPO` | Comma-separated repos to leave out of stats and top-languages. |
 | `FETCH_MULTI_PAGE_STARS` | `true` for accurate star totals when you have >100 repos. Slower. |
+| `UPDATE_AFTER_HOURS` | Hours before a previously requested card is proactively regenerated. Default 11. |
+| `TURBO_PLATFORM_ENV_DISABLED` | `true` silences the turbo build warning. Cosmetic. |
 
 Setting `WHITELIST=Surajvthakur` is worth doing — a public URL pointed at your token is otherwise
 free API budget for anyone who finds it.
-
----
 
 ## Step 3 — Deploy the Trophy card
 
@@ -235,6 +274,8 @@ Light and Dark to confirm the cards render in both themes.
 
 | Symptom | Cause | Fix |
 |---|---|---|
+| `No Output Directory named "dist" found` | Root Directory not set to `apps/backend` (Step 2) | Project Settings → Build & Deployment → Root Directory → `apps/backend`, then Redeploy. Vercel reads `vercel.json` only from the Root Directory. |
+| Build succeeds but cards are unstable | Project is tracking `master` | Switch the Production branch to `release` (Step 2.7). |
 | `402` | Vercel account quota exhausted | You're still pointing at the shared public instance, not your own. Re-check the hostname in `README.md`. |
 | `403` / "Maximum retries exceeded" | Token missing, misnamed, or revoked | Check the env var name character-for-character: `PAT_1`, `GITHUB_TOKEN1`, `TOKEN`. Redeploy after fixing — Vercel does **not** apply env var changes to an existing deployment. |
 | `404` on the trophy card | Wrong path | Trophy serves from `/?username=`, not `/api?username=`. |
