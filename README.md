@@ -106,7 +106,7 @@ Here are the tools and technologies I work with:
             root dir apps/backend; fork of stats-organization/github-stats-extended
        2. github-profile-trophy.vercel.app        -> env var  GITHUB_TOKEN1
             fork ryo-ma/github-profile-trophy            (note the trailing 1)
-       3. github-readme-activity-graph.vercel.app -> env var  TOKEN
+       3. github-readme-activity-graph-roan-eight.vercel.app -> env var  TOKEN
             fork Ashutosh00710/github-readme-activity-graph
 
      Each project uses a DIFFERENT env var name -- see SELF-HOSTING.md.
@@ -168,7 +168,7 @@ Here are the tools and technologies I work with:
 ## Activity Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Surajvthakur&theme=tokyo-night&hide_border=true"/>
+  <img src="https://github-readme-activity-graph-roan-eight.vercel.app/graph?username=Surajvthakur&theme=tokyo-night&hide_border=true"/>
 </p>
 
 ---
