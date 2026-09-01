@@ -104,7 +104,7 @@ Here are the tools and technologies I work with:
        1. DONE -- self-hosted at
             github-stats-extended-frontend-nu-three.vercel.app  (env PAT_1)
             root dir apps/backend; fork of stats-organization/github-stats-extended
-       2. github-profile-trophy.vercel.app        -> env var  GITHUB_TOKEN1
+       2. github-profile-trophy-gamma-gray.vercel.app        -> env var  GITHUB_TOKEN1
             fork ryo-ma/github-profile-trophy            (note the trailing 1)
        3. github-readme-activity-graph-roan-eight.vercel.app -> env var  TOKEN
             fork Ashutosh00710/github-readme-activity-graph
@@ -157,7 +157,7 @@ Here are the tools and technologies I work with:
 
 <p align="center">
   <img 
-    src="https://github-profile-trophy.vercel.app/?username=Surajvthakur&theme=radical&no-frame=true&no-bg=true&margin-w=10" 
+    src="https://github-profile-trophy-gamma-gray.vercel.app/?username=Surajvthakur&theme=radical&no-frame=true&no-bg=true&margin-w=10" 
     alt="GitHub Trophies"
   />
 </p>

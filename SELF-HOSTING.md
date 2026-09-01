@@ -178,7 +178,35 @@ Currently returning `402`. This is the one you actually need.
    error. You may optionally add `GITHUB_TOKEN2` with a second token; the service rotates between
    them on rate-limit.
 
-4. Deploy, then copy the hostname and test:
+4. **Patch `api/index.ts` in your fork before it will run.** As of this writing the deployed
+   function crashes on every request — including ones that never touch the GitHub API — with:
+
+   ```
+   500 FUNCTION_INVOCATION_FAILED
+   TypeError: Relative import path "@std/dotenv/load" not prefixed with / or ./ or ../
+     at file:///var/task/api/index.ts:5:8   code: "ERR_MODULE_NOT_FOUND"
+   ```
+
+   That bare specifier resolves through `deno.json`'s import map, which the `vercel-deno` runtime
+   does not honour. Upstream tracks this as
+   [#466](https://github.com/ryo-ma/github-profile-trophy/issues/466); the fix in
+   [#461](https://github.com/ryo-ma/github-profile-trophy/pull/461) is still unmerged.
+
+   Edit line 5 of `api/index.ts` in your fork:
+
+   ```diff
+   - import "@std/dotenv/load";
+   + import "https://deno.land/std@0.224.0/dotenv/load.ts";
+   ```
+
+   Same module, imported by URL instead of through the import map. It only reads `.env` files for
+   local development; on Vercel your variables come from the platform. Commit to `master` and
+   Vercel redeploys automatically.
+
+   > This is a local patch on top of upstream, so GitHub's **Sync fork** button will later report a
+   > conflict on this line. Reapply it, or drop it once upstream merges their own fix.
+
+5. Deploy, then copy the hostname and test:
 
 ```bash
 curl -s -o /dev/null -w '%{http_code}\n' \
@@ -280,6 +308,7 @@ Light and Dark to confirm the cards render in both themes.
 | `403` / "Maximum retries exceeded" | Token missing, misnamed, or revoked | Check the env var name character-for-character: `PAT_1`, `GITHUB_TOKEN1`, `TOKEN`. Redeploy after fixing — Vercel does **not** apply env var changes to an existing deployment. |
 | `404` on the trophy card | Wrong path | Trophy serves from `/?username=`, not `/api?username=`. |
 | `500` on the activity graph | Usually the `TOKEN` var | Confirm it's named `TOKEN` exactly, then redeploy. |
+| `500 FUNCTION_INVOCATION_FAILED` on **every** trophy URL, including one with no `?username=` | The `@std/dotenv/load` import crashes the function at module load — not a token problem | Apply the one-line patch in Step 3.4. A no-parameter request that also 500s proves the crash happens before any GitHub call, which rules out the token. |
 | Card shows "Something went wrong" | Token expired | Generate a new one (Step 1) and update it in all three Vercel projects. |
 | Private repos not counted | Token lacks `repo` scope | Regenerate the token with `repo` ticked; `count_private=true` needs it. |
 | Changed an env var, nothing happened | Vercel needs a redeploy | Deployments → latest → ⋯ → **Redeploy**. |
