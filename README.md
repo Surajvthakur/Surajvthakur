@@ -7,7 +7,7 @@
 <div align="center">
   
   <a href="https://github.com/Surajvthakur">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=00BFFF&center=true&vCenter=true&width=500&lines=Genrative+AI;Agentic+AI;Machine+Learning+Engineer;Deep+Learning+Engineer;Data+Science" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=00BFFF&center=true&vCenter=true&width=500&lines=Generative+AI;Agentic+AI;Machine+Learning+Engineer;Deep+Learning+Engineer;Data+Science" alt="Typing SVG"/>
   </a>
 
 </div>
@@ -25,7 +25,7 @@
 
 ---
 
-### 🛠️ My Tech Stack
+## 🛠️ My Tech Stack
 
 Here are the tools and technologies I work with:
 
@@ -46,8 +46,8 @@ Here are the tools and technologies I work with:
   <img src="https://cdn.simpleicons.org/mlflow/0194E2" width="50" height="50" alt="MLflow"/>
 
   <!-- GenAI / NLP -->
-  <img src="https://api.iconify.design/simple-icons:openai.svg?color=white" width="50" height="50" alt="OpenAI"/>
-  <img src="https://api.iconify.design/simple-icons:langchain.svg?color=white" width="50" height="50" alt="LangChain"/>
+  <img src="https://api.iconify.design/simple-icons:openai.svg?color=%23888888" width="50" height="50" alt="OpenAI"/>
+  <img src="https://cdn.simpleicons.org/langchain/444444/white" width="50" height="50" alt="LangChain"/>
   <img src="https://cdn.simpleicons.org/meta/0467DF" width="50" height="50" alt="LLaMA"/>
   <img src="https://avatars.githubusercontent.com/u/6412038?s=200&v=4" width="50" height="50" alt="Pinecone"/>
 
@@ -69,13 +69,13 @@ Here are the tools and technologies I work with:
   <!-- Backend -->
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg" width="50" height="50" alt="Spring Boot"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="50" height="50" alt="Node.js"/>
-  <img src="https://cdn.simpleicons.org/express/white" width="50" height="50" alt="Express"/>
-  <img src="https://cdn.simpleicons.org/flask/white" width="50" height="50" alt="Flask"/>
+  <img src="https://cdn.simpleicons.org/express/444444/white" width="50" height="50" alt="Express"/>
+  <img src="https://cdn.simpleicons.org/flask/444444/white" width="50" height="50" alt="Flask"/>
   <img src="https://cdn.worldvectorlogo.com/logos/fastapi-1.svg" width="50" height="50" alt="FastAPI"/>
 
   <!-- Frontend -->
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="50" height="50" alt="React"/>
-  <img src="https://cdn.simpleicons.org/nextdotjs/white" width="50" height="50" alt="Next.js"/>
+  <img src="https://cdn.simpleicons.org/nextdotjs/444444/white" width="50" height="50" alt="Next.js"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original-wordmark.svg" width="50" height="50" alt="Bootstrap"/>
   <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="50" height="50" alt="Tailwind CSS"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="50" height="50" alt="HTML"/>
@@ -87,23 +87,43 @@ Here are the tools and technologies I work with:
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" width="50" height="50" alt="Docker"/>
   <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" width="50" height="50" alt="Kubernetes"/>
   <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="50" height="50" alt="Git"/>
-  <img src="https://cdn.simpleicons.org/github/white" width="50" height="50" alt="GitHub"/>
+  <img src="https://cdn.simpleicons.org/github/444444/white" width="50" height="50" alt="GitHub"/>
 
 </p>
 
 
 ---
 
-### 📊 My GitHub Stats
+<!-- ==========================================================================
+     SELF-HOST SWAP — full walkthrough in SELF-HOSTING.md
+
+     These cards come from shared public instances that get rate-limited.
+     Deploy your own and replace the hostnames. Find every site with:
+         grep -n "SELF-HOST" README.md
+
+       1. github-stats-extended.vercel.app        -> env var  PAT_1
+            fork stats-organization/github-stats-extended
+            (the maintained successor to github-readme-stats, which is EOL)
+       2. github-profile-trophy.vercel.app        -> env var  GITHUB_TOKEN1
+            fork ryo-ma/github-profile-trophy            (note the trailing 1)
+       3. github-readme-activity-graph.vercel.app -> env var  TOKEN
+            fork Ashutosh00710/github-readme-activity-graph
+
+     Each project uses a DIFFERENT env var name -- see SELF-HOSTING.md.
+     One read-only PAT covers all three. Keep it in Vercel only, never here.
+     ========================================================================== -->
+
+<!-- SELF-HOST (1): github-readme-stats -->
+## 📊 My GitHub Stats
 
 <p align="center">
   <a href="https://github.com/Surajvthakur">
-    <img src="https://github-readme-stats.vercel.app/api?username=Surajvthakur&show_icons=true&theme=tokyonight&icon_color=00BFFF&hide_border=true&count_private=true" alt="GitHub Stats"/>
+    <img src="https://github-stats-extended.vercel.app/api?username=Surajvthakur&show_icons=true&theme=tokyonight&icon_color=00BFFF&hide_border=true&count_private=true" alt="GitHub Stats"/>
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/Surajvthakur">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Surajvthakur&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
+    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Surajvthakur&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
   </a>
 </p>
 <p align="center">
@@ -115,14 +135,24 @@ Here are the tools and technologies I work with:
 
 ---
 
-### 🐍 My GitHub Contribution Graph Animation
+## 🐍 My GitHub Contribution Graph Animation
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Surajvthakur/Surajvthakur/main/dist/github-contribution-grid-snake.svg" alt="Snake Animation"/>
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/Surajvthakur/Surajvthakur/output/github-contribution-grid-snake-dark.svg"
+    />
+    <img
+      src="https://raw.githubusercontent.com/Surajvthakur/Surajvthakur/output/github-contribution-grid-snake.svg"
+      alt="Snake animation of Suraj Thakur's GitHub contribution graph"
+    />
+  </picture>
 </div>
 
 ---
 
+<!-- SELF-HOST (2): github-profile-trophy — see swap guide above -->
 ## 🏆 GitHub Trophies
 
 <p align="center">
@@ -134,13 +164,12 @@ Here are the tools and technologies I work with:
 
 ---
 
+<!-- SELF-HOST (3): github-readme-activity-graph — see swap guide above -->
 ## Activity Graph
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Surajvthakur&theme=tokyo-night&hide_border=true"/>
 </p>
-
----
 
 ---
 
@@ -152,7 +181,7 @@ Here are the tools and technologies I work with:
 
 ---
 
-### 📬 Connect With Me
+## 📬 Connect With Me
 
 <p align="center">
   <a href="https://www.linkedin.com/in/suraj-thakur-087b19282/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
