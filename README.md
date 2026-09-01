@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/Surajvthakur">
-    <img src="https://capsule-render.vercel.app/api?type=wave&color=00BFFF&height=300&section=header&text=AI%20Engineer&fontSize=90&animation=fadeIn&fontAlignY=38&descAlignY=51&descAlign=62" alt="Header Banner"/>
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=00BFFF&height=300&section=header&text=AI%20Engineer&fontSize=90&animation=fadeIn&fontAlignY=38&descAlignY=51&descAlign=62" alt="Header Banner"/>
   </a>
 </p>
 
