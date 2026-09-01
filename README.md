@@ -101,9 +101,9 @@ Here are the tools and technologies I work with:
      Deploy your own and replace the hostnames. Find every site with:
          grep -n "SELF-HOST" README.md
 
-       1. github-stats-extended.vercel.app        -> env var  PAT_1
-            fork stats-organization/github-stats-extended
-            (the maintained successor to github-readme-stats, which is EOL)
+       1. DONE -- self-hosted at
+            github-stats-extended-frontend-nu-three.vercel.app  (env PAT_1)
+            root dir apps/backend; fork of stats-organization/github-stats-extended
        2. github-profile-trophy.vercel.app        -> env var  GITHUB_TOKEN1
             fork ryo-ma/github-profile-trophy            (note the trailing 1)
        3. github-readme-activity-graph.vercel.app -> env var  TOKEN
@@ -118,12 +118,12 @@ Here are the tools and technologies I work with:
 
 <p align="center">
   <a href="https://github.com/Surajvthakur">
-    <img src="https://github-stats-extended.vercel.app/api?username=Surajvthakur&show_icons=true&theme=tokyonight&icon_color=00BFFF&hide_border=true&count_private=true" alt="GitHub Stats"/>
+    <img src="https://github-stats-extended-frontend-nu-three.vercel.app/api?username=Surajvthakur&show_icons=true&theme=tokyonight&icon_color=00BFFF&hide_border=true&count_private=true" alt="GitHub Stats"/>
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/Surajvthakur">
-    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Surajvthakur&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
+    <img src="https://github-stats-extended-frontend-nu-three.vercel.app/api/top-langs/?username=Surajvthakur&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
   </a>
 </p>
 <p align="center">
